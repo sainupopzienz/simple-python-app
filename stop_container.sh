@@ -2,4 +2,4 @@
 set -e
 
 # Stop the running container (if any)
-echo 
+containerid='docker ps | awk -F '{print $1}''
